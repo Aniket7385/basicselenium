@@ -14,7 +14,7 @@ public class medibuddy {
 		driver.get("https://www.medibuddy.in/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 
 	}
